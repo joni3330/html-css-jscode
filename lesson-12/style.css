@@ -1,0 +1,44 @@
+@font-face{
+    font-family: "Fake identity";
+    src: url("Rossten.ttf");
+}
+
+h1{
+    color: blue;
+    letter-spacing: 20px;
+    word-spacing: 20px;
+}
+p{
+    text-indent: 50px;
+    text-align: center;
+    text-decoration: none;
+    writing-mode: vertical-rl;
+    font-family:"Times-New-Roman" , Times, serif;
+}
+h2{
+    text-decoration: overline;
+}
+h3{
+    text-decoration: line-through;
+}
+h4{
+    text-decoration: underline;
+}
+.myElement{
+    color:red !important;
+}
+#normalText{
+    font-size: normal;
+    font-size: 50px;
+    font-weight: normal;
+}
+#italicText{
+    font-size: italic;
+    font-size: 50px;
+    font-weight: bold;
+}
+#obliqueText{
+    font-size: oblique;
+    font-size: 50px;
+    font-weight: 900;
+}
