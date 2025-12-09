@@ -1,0 +1,50 @@
+div{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: blue;
+    transform: skewY(-40deg);
+    padding: 10px;
+    color: white;
+}
+#speedsters img {
+    transform: scale(1);
+    transition: .3 ease-in-out;
+}
+#speedsters:hover img{
+    transform: (1.3);
+}
+
+#giphy img{
+    margin-left: 0px;
+    transition: .3s ease-in-out;
+}
+#gipgy:hover img{
+    margin-left: 30px;
+}
+
+#shadow img{
+    filter: blur(3px);
+    transition: .3s ease-in-out;
+}
+#shadow:hover img{
+    filter: grayscale(0)
+}
+.loader{
+    margin: 100PX;
+}
+.loader img{
+    display: inline-block;
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+    margin-right: 8px;
+    animation: bounce 8s infinite alternate;
+}
+@keyframes bounce{
+    to{
+        width: 150px;
+        height: 150px;
+        transform: translate3d(0, -50px, 0 );
+    }
+}
