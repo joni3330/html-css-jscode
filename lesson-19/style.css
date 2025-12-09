@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    flex-direction: column-reverse;
+    /*flex-direction: row */
+    /*flex-direction: row-reverse*/
+
+    background-color: blue;
+}
+
+.container div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+}
