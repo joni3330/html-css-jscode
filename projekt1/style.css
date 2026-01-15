@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+header{
+    background: #222;
+    color: white;
+    padding: 15px;
+}
+.navbar{
+    display: flex;
+    justify-content: first baseline;
+    align-items: center;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+.hero{
+    background-color: aqua;
+    padding: 50px;
+    text-align: center;
+}
+.info img{
+    width: 100%;
+    margin-top: 10px;
+}
+.rooms {
+    display: flex;
+    gap: 20px;
+    justify-content: baseline;
+    padding: 20px;
+}
+table{
+    width: 80px;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+td,th{
+    border:1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+footer{
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
