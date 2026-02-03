@@ -50,9 +50,9 @@ console.log(toSeconds(60));
 var car = { name:"AUDI" , 
      color:"black",
      year:2024,
-     kilometers:"191000"
+     kilometers:"191000",
      startEngine : function (){
-        alert("vrom")
+        alert("vrom");
       },
       get getKilometers(){
         return this.kilometers;
@@ -74,7 +74,6 @@ var school = {
 
 alert(car.name);
 
-alert(car color});
 
 var computer = new Object();
 
