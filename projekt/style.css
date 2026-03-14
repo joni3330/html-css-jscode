@@ -1,0 +1,68 @@
+body{
+font-family: Arial;
+margin:0;
+background:#f4f4f4;
+}
+
+header{
+background:#0099cc;
+color:white;
+padding:20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+nav a{
+color:white;
+margin:0 10px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.hero{
+text-align:center;
+padding:80px;
+background:url("https://picsum.photos/1200/500") center/cover;
+color:white;
+}
+
+.hero button{
+padding:10px 20px;
+font-size:16px;
+background:orange;
+border:none;
+cursor:pointer;
+}
+
+.destinations{
+padding:40px;
+text-align:center;
+}
+
+.cards{
+display:flex;
+justify-content:center;
+gap:20px;
+}
+
+.card{
+background:white;
+padding:15px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+width:300px;
+}
+
+.card img{
+width:100%;
+border-radius:10px;
+}
+
+footer{
+background:#333;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:30px;
+}
